@@ -26,7 +26,7 @@ function Navbar({ latitude, longitude }) {
       </nav>
       <div style={{ height: '100vh', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyC8WxEKuLd-xWZ3Zo4YsaNKSF2W2Ta2khI" }}
+          bootstrapURLKeys={{ key: "API_KEY" }}
           center={{ lat: 28.7523714, lng: 77.1146606 }}
           zoom={14}
           yesIWantToUseGoogleMapApiInternals
